@@ -14,7 +14,8 @@ var weatherParams = {
 //var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
 //var feed = 'http://www.nu.nl/feeds/rss/achterklap.rss';
 //var feed = 'http://www.nu.nl/feeds/rss/opmerkelijk.rss';
-var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
+//var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
+var feed = 'http://www.heise.de/newsticker/heise-top-atom.xml';
 
 // compliments:
 var morning = [
