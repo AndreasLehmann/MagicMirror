@@ -15,7 +15,9 @@ var weatherParams = {
 //var feed = 'http://www.nu.nl/feeds/rss/achterklap.rss';
 //var feed = 'http://www.nu.nl/feeds/rss/opmerkelijk.rss';
 //var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
-var feed = 'http://www.heise.de/newsticker/heise-top-atom.xml';
+//var feed = 'http://www.heise.de/newsticker/heise-top-atom.xml';
+var feed = 'http://www.tagesschau.de/xml/rss2';
+
 
 // compliments:
 var morning = [
@@ -32,6 +34,6 @@ var afternoon = [
        
 var evening = [
             'Wow, you look hot!',
-            'You look nice!',
+            'You look nice!!',
             'Hi, sexy!'
         ];
