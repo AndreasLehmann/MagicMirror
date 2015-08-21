@@ -332,6 +332,9 @@ jQuery(document).ready(function($) {
 
 			var forecastTable = $('<table />').addClass('forecast-table');
 			var opacity = 1;
+            
+            forecastTable.append('<tr  class="dimmed xxsmall"> <td> &nbsp; </td> <td> &nbsp; </td> <td> Max. </td> <td> Min. </td></tr>');
+                
 			for (var i in forecastData) {
 				var forecast = forecastData[i];
 			    var iconClass = iconTable[forecast.icon];
@@ -340,8 +343,8 @@ jQuery(document).ready(function($) {
 
 				row.append($('<td/>').addClass('day').html(moment.weekdaysShort(dt.getDay())));
 				row.append($('<td/>').addClass('icon-small').addClass(iconClass));
-				row.append($('<td/>').addClass('temp-max').html(roundVal(forecast.temp_max)));
-				row.append($('<td/>').addClass('temp-min').html(roundVal(forecast.temp_min)));
+				row.append($('<td/>').addClass('temp-max').html(roundVal(forecast.temp_max) +"&deg" ));
+				row.append($('<td/>').addClass('temp-min').html(roundVal(forecast.temp_min) +"&deg"));
 
 				forecastTable.append(row);
 				opacity -= 0.155;
