@@ -1,5 +1,5 @@
 // for navigator language
-// var lang = window.navigator.language;
+// var lang = window.navigator.language; 
 // you can change the language
 var lang = 'de';
 
@@ -8,8 +8,9 @@ var lang = 'de';
 var weatherParams = {
     'q':'Schladen,de',
     'units':'metric',
-    'lang':lang
-};
+    'lang':lang,
+    'APPID':'5eeb9af19c0d62a9fc1dff4da5dc59dc'
+};  // &APPID=5eeb9af19c0d62a9fc1dff4da5dc59dc
 
 //var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
 //var feed = 'http://www.nu.nl/feeds/rss/achterklap.rss';
